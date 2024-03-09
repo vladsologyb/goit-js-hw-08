@@ -1,0 +1,23 @@
+.gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 20px;
+    min-width: 1158px;
+
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 360px;
+    height: 200px;
+}
